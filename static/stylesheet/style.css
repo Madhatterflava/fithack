@@ -1,0 +1,1293 @@
+body{
+    font-family: "Noto Sans"!important;
+    background-color: #F4F3EF!important;
+}
+hr{
+    color: #1c1c1c !important;
+}
+hr{
+    margin: 16px 0 40px 0!important;
+}
+
+.btn{
+    border-radius: 50px!important;
+    width: 92px;
+    border: 1px solid #6c757d !important;
+}
+.btn:hover{
+    color: #F4F3EF!important;
+    background-color: #6c757d!important;
+}
+.app-link{
+    justify-content: flex-start !important;
+}
+.btn-outline-primary {
+    color: #6c757d !important;
+}
+.banner-link-first{
+    margin-right: 3rem !important;
+}
+.nav-link:hover{
+    color: #FF3131!important;
+}
+.big-header{
+    margin-top: 60px;
+}
+.span-red{
+    color: #FF3131!important;
+}
+.big-header h1{
+    font-size: 60pt!important;
+}
+.big-header h2{
+    font-size: 52pt!important;
+}
+.cath-phrase{
+    margin: 40px 0;
+}
+.phone-pictures{
+    padding: 0px 15%!important;
+}
+.phone-pictures img{
+    width: inherit;
+    border-radius: 40px;
+}
+.first-phone-box{
+    width: inherit;
+}
+.app-pics{
+    margin-top: 40px;
+}
+.icons{
+    margin: 0 15px;
+}
+.nav-ul{
+    align-content: center!important;
+    padding-inline-start: 0px!important;
+}
+.nav-ul li{
+    text-align: left!important;
+    line-height: 22px;
+}
+.img-ben{
+    width: 90px;
+    margin-bottom: 20px;
+}
+.benefit-container{
+    background-color: #EBEAE8;
+    margin: 120px 0;
+}
+.margin-block{
+    padding: 60px 0;
+}
+
+.benefits-block{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 100px;
+    column-gap: 30px;
+}
+.benefit-info p{
+    font-size: 20px;
+}
+.sport-pictures{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+}
+.sport-box{
+    width: 355px;
+    background-color: #E2E1DC;
+    border-radius: 40px;
+    justify-content: space-between !important;
+}
+.sport-box p{
+    font-size: 16px;
+    margin: 20px 40px 25px 40px;
+}
+.sport-box img{
+    border-radius: inherit;
+}
+.banner{
+    background: #1C1C1C;
+    border-radius: 40px;
+    height: 401px;
+    margin: 120px 0 ;
+}
+.banner-content{
+    padding: 60px;
+}
+.banner-content h3{
+    font-size: 40px;
+    color:#F4F3EF;
+}
+.banner-content p{
+    margin: 52px 0;
+    font-size: 20px;
+    color:#F4F3EF;
+}
+.ban-img{
+    border-radius: 80px 0px 80px 80px!important;
+}
+.ban-img-mob{
+    display: none!important;
+}
+.banner-small-photo{
+    display: flex;
+    flex-direction: column!important;
+    justify-content: space-between !important;
+}
+
+.banner-small-photo-1{
+    border-radius: 80px 20px 80px 40px;
+}
+.banner-small-photo-2{
+    border-radius: 80px 20px 40px 0px;
+}
+.banner-small-photo-3, .banner-small-photo-4{
+    display: none;
+}
+.footer-box{
+    background-color: #1C1C1C;
+    color: #7B7B80;
+}
+footer{
+    display: flex;
+    flex-direction: row!important;
+    align-items: flex-start!important;
+    margin-right: 3rem !important;
+}
+.footer-logo-div{
+    width: auto!important;
+}
+.footer-logo-div p{
+    margin-top: 40px;
+}
+.sport-box img{
+    width: inherit;
+}
+.footer-logo-div img{
+    width: inherit!important;
+}
+.footer-box h5{
+    color: white;
+}
+.footer-box li{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 28px 0;
+}
+.fot-log{
+    width: 163px!important;
+}
+.social-links img{
+    width: 26.03px;
+    margin-right: 20px;
+}
+
+
+/*------------------------------------------------------------------- 991 - 768 ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .big-header h1{
+        font-size: 8vw!important;
+    }
+    .big-header h2{
+        font-size: 28pt!important;
+    }
+    .cath-phrase p{
+        font-size: 2vh!important;
+    }
+    .img-ben{
+        width: 140px;
+    }
+    .benefit-info p {
+        font-size: 2vh!important;
+    }
+    .banner-content h3 {
+        font-size: 4vh!important;
+    }
+    .banner-content p {
+        font-size: 2.1vh!important;
+    }
+    .phone-pictures {
+        padding: 0 0!important;
+        width: inherit;
+
+    }
+    .phone-pictures img{
+        width: inherit;
+        border-radius: 20px;
+    }
+    .benefits-block {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sport-pictures {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .banner{
+        display: flex !important;
+        
+        height: max-content;
+        flex-direction: column-reverse!important;
+    }
+    .banner-content{
+        align-content: center;
+    justify-content: center;
+    align-items: center;
+        margin-top: 35px;
+        padding: 0 16px;
+    }
+    .banner-content h3{
+        font-size: 24px;
+    }
+    .banner-content p{
+        margin: 35px 0;
+        font-size: 16px;
+    }
+    .banner-photo{
+        flex-direction: column!important;
+    }
+    .banner-small-photo{
+        justify-content: space-between!important;
+        flex-direction: row!important;
+    }
+    .banner-small-photo img{
+        width: inherit;
+    }
+    .middle-phone{
+        width: 260px;
+        margin: 0 17px;
+    }
+    .phone-container{
+        padding: 0 0 0 0!important;
+    }
+    .nav-header{
+        display: none!important;
+    }
+    #btn{
+        font-size: 2vh!important;
+    }
+    .nav-ul{
+        align-content: center!important;
+        padding-inline-start: 0px!important;
+    }
+    .header-class{
+        justify-content: space-between!important;
+    }
+    header img{
+        width: 100%;
+    }
+    footer{
+        display: flex;
+        flex-direction: row!important;
+        margin-right: 0 !important;
+    }
+    .footer-box{
+        text-align: center !important;
+    }
+    .footer-logo-div{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .social-links{
+        align-content: center;
+        justify-content: center;
+    }
+    .app-link{
+        justify-content: center !important;
+    }
+    .banner-links{
+        margin-bottom: 35px;
+    }
+    .ban-img{
+        display: none!important;
+    }
+    .banner-small-photo{
+        width: 100%;
+        gap: 10%;
+    }
+    .ban-img-mob{
+        display: block!important;
+        width: -webkit-fill-available;
+        border-radius: 40px 40px 80px 0px!important;
+    }
+    .banner-small-photo-3,.banner-small-photo-4{
+        display: block;
+    }
+    .banner-small-photo-3{
+        border-radius: 20px 80px 20px 0px;
+    }
+    .banner-small-photo-4{
+        border-radius: 80px 20px 0px;
+    }
+    .banner-small-photo-1,.banner-small-photo-2{
+        display: none;
+    }
+    .sport-box{
+        width: 100%;
+    }
+    .sport-box p{
+        font-size: 2.8vh;
+    }
+    .ipad{
+        flex-direction: column;
+    }
+
+}
+/*------------------------------------------------------------------- 599 - 767 ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+
+    .big-header h1{
+        font-size: 8vw!important;
+    }
+    .big-header h2{
+        font-size: 28pt!important;
+    }
+    .cath-phrase p{
+        font-size: 2.5vh!important;
+    }
+    .img-ben{
+        width: 140px;
+    }
+    .benefit-info p {
+        font-size: 2.6vh!important;
+    }
+    .banner-content h3 {
+        font-size: 4vh!important;
+    }
+    .banner-content p {
+        font-size: 2.1vh!important;
+    }
+    .phone-pictures {
+        padding: 0 0!important;
+        width: inherit;
+
+    }
+    .phone-pictures img{
+        width: inherit;
+        border-radius: 20px;
+    }
+    .benefits-block {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sport-pictures {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .banner{
+        display: flex !important;
+        
+        height: max-content;
+        flex-direction: column-reverse!important;
+    }
+    .banner-content{
+        align-content: center;
+    justify-content: center;
+    align-items: center;
+        margin-top: 35px;
+        padding: 0 16px;
+    }
+    .banner-content h3{
+        font-size: 24px;
+    }
+    .banner-content p{
+        margin: 35px 0;
+        font-size: 16px;
+    }
+    .banner-photo{
+        flex-direction: column!important;
+    }
+    .banner-small-photo{
+        justify-content: space-between!important;
+        flex-direction: row!important;
+    }
+    .banner-small-photo img{
+        width: inherit;
+    }
+    .middle-phone{
+        width: 260px;
+        margin: 0 17px;
+    }
+    .phone-container{
+        padding: 0 0 0 0!important;
+    }
+    .nav-header{
+        display: none!important;
+    }
+    .btn{
+        font-size: 2vh!important;
+    }
+    .nav-ul{
+        align-content: center!important;
+        padding-inline-start: 0px!important;
+    }
+    .header-class{
+        justify-content: space-between!important;
+    }
+    header img{
+        width: 100%;
+    }
+    footer{
+        display: flex;
+        flex-direction: row!important;
+        margin-right: 0 !important;
+    }
+    .footer-box{
+        text-align: center !important;
+    }
+    .footer-logo-div{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .social-links{
+        align-content: center;
+        justify-content: center;
+    }
+    .app-link{
+        justify-content: center !important;
+    }
+    .banner-links{
+        margin-bottom: 35px;
+    }
+    .ban-img{
+        display: none!important;
+    }
+    .banner-small-photo{
+        width: 100%;
+        gap: 10%;
+    }
+    .ban-img-mob{
+        display: block!important;
+        width: -webkit-fill-available;
+        border-radius: 40px 40px 80px 0px!important;
+    }
+    .banner-small-photo-3,.banner-small-photo-4{
+        display: block;
+    }
+    .banner-small-photo-3{
+        border-radius: 20px 80px 20px 0px;
+    }
+    .banner-small-photo-4{
+        border-radius: 80px 20px 0px;
+    }
+    .banner-small-photo-1,.banner-small-photo-2{
+        display: none;
+    }
+    .sport-box{
+        width: 100%;
+    }
+    .sport-box p{
+        font-size: 2.8vh;
+    }
+    .ipad{
+        flex-direction: column;
+    }
+
+}
+/*------------------------------------------------------------------- 1199px x 992px ---------------------------------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+
+    .big-header h1{
+        font-size: 68px!important;
+    }
+    .big-header h2{
+        font-size: 28pt!important;
+    }
+    .cath-phrase p{
+        font-size: 18px;
+    }
+    .img-ben{
+        width: 140px;
+    }
+    .benefit-info p {
+        font-size: 18px;
+    }
+    .banner-content h3 {
+        font-size: 24px!important;
+    }
+    .banner-content p {
+        font-size: 16px!important;
+    }
+    .phone-pictures {
+        padding: 0 0!important;
+        width: inherit;
+
+    }
+    .phone-pictures img{
+        width: inherit;
+        border-radius: 20px;
+    }
+    .benefits-block {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .sport-pictures {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: inherit!important;
+        
+    }
+    .banner{
+        display: flex !important;
+        height: max-content;
+        flex-direction: row!important;
+    }
+    #btn {
+        font-size: 2.5vh!important;
+    }
+    .banner-content{
+        align-content: center;
+    justify-content: center;
+
+        margin-top: 35px;
+        padding: 0 30px;
+        align-items: flex-start
+    }
+    .banner-content h3{
+        font-size: 48px!important;
+    }
+    .banner-content p{
+        margin: 35px 0;
+        font-size: 20px!important;
+    }
+    .header-banner{
+        max-width: 1065px!important;
+    }
+    .banner-photo{
+        flex-direction: row!important;
+        /* align-items: center; */
+        
+    }
+    .banner-small-photo{
+        display: flex!important;
+        width: 100%;
+        gap: 0;
+    }
+    .banner-small-photo img{
+        
+        width: inherit;
+    }
+    .middle-phone{
+        width: 350px;
+        margin: 0 17px;
+    }
+    .phone-container{
+        padding: 0 0 0 0!important;
+    }
+    .nav-header{
+        display: none!important;
+    }
+    .btn{
+        font-size: 2vh!important;
+    }
+    .nav-ul{
+        align-content: center!important;
+        padding-inline-start: 0px!important;
+    }
+    .header-class{
+        justify-content: space-between!important;
+    }
+    header img{
+        width: 100%;
+    }
+    footer{
+        display: flex;
+        flex-direction: row!important;
+        margin-right: 0 !important;
+    }
+    .footer-box{
+        text-align: center !important;
+    }
+    .footer-logo-div{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .social-links{
+        align-content: center;
+        justify-content: center;
+    }
+    .app-link{
+        justify-content: center !important;
+    }
+    .banner-links{
+        margin-bottom: 35px;
+    }
+    .ban-img{
+        border-radius: 40px!important;
+        width: -webkit-fill-available;
+        display: block!important;
+    }
+    .ban-img-mob{
+        display: none!important;
+        width: -webkit-fill-available;
+        border-radius: 40px 40px 80px 0px!important;
+    }
+    .banner-small-photo-3,.banner-small-photo-4{
+        display: none;
+    }
+    .banner-small-photo-3{
+        border-radius: 20px 80px 20px 0px;
+    }
+    .banner-small-photo-4{
+        border-radius: 80px 20px 0px;
+    }
+    .banner-small-photo-1,.banner-small-photo-2{
+        display: block;
+    }
+    .sport-box{
+        width: 100%;
+        justify-content: flex-start !important;
+    }
+    .sport-box p{
+        font-size: 16px;
+        margin: 20px 25px 25px 30px;
+
+    }
+    .ipad{
+        gap: 20px;
+        flex-direction: column;
+    }
+    .ipad img{
+        width: 118px!important;
+    }
+}
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .big-header h1{
+        font-size: 8vw!important;
+    }
+    .big-header h2{
+        font-size: 28pt!important;
+    }
+    .cath-phrase p{
+        font-size: 4vh;
+    }
+    .img-ben{
+        width: 140px;
+    }
+    .benefit-info p {
+        font-size: 3.6vh;
+    }
+    .banner-content h3 {
+        font-size: 24px!important;
+    }
+    .banner-content p {
+        font-size: 16px!important;
+    }
+    .phone-pictures {
+        padding: 0 0!important;
+        width: inherit;
+
+    }
+    .phone-pictures img{
+        width: inherit;
+        border-radius: 20px;
+    }
+    .benefits-block {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .sport-pictures {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: inherit!important;
+        
+    }
+    .banner{
+        display: flex !important;
+        height: max-content;
+        flex-direction: row!important;
+    }
+    #btn {
+        font-size: 3vh;
+    }
+    .banner-content{
+        align-content: center;
+    justify-content: center;
+
+        margin-top: 35px;
+        padding: 0 30px;
+        align-items: flex-start
+    }
+    .banner-content h3{
+        font-size: 24px;
+    }
+    .banner-content p{
+        margin: 35px 0;
+        font-size: 16px;
+    }
+    .banner-photo{
+        flex-direction: row!important;
+        
+    }
+    .banner-small-photo{
+        display: none!important;
+        width: 100%;
+        gap: 10%;
+    }
+    .banner-small-photo img{
+        display: none!important;
+        width: inherit;
+    }
+    .middle-phone{
+        width: 260px;
+        margin: 0 17px;
+    }
+    .phone-container{
+        padding: 0 0 0 0!important;
+    }
+    .nav-header{
+        display: none!important;
+    }
+    .btn{
+        font-size: 2vh!important;
+    }
+    .nav-ul{
+        align-content: center!important;
+        padding-inline-start: 0px!important;
+    }
+    .header-class{
+        justify-content: space-between!important;
+    }
+    header img{
+        width: 100%;
+    }
+    footer{
+        display: flex;
+        flex-direction: row!important;
+        margin-right: 0 !important;
+    }
+    .footer-box{
+        text-align: center !important;
+    }
+    .footer-logo-div{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .social-links{
+        align-content: center;
+        justify-content: center;
+    }
+    .app-link{
+        justify-content: center !important;
+    }
+    .banner-links{
+        margin-bottom: 35px;
+    }
+    .ban-img{
+        border-radius: 40px!important;
+        width: -webkit-fill-available;
+        display: block!important;
+    }
+    .ban-img-mob{
+        display: none!important;
+        width: -webkit-fill-available;
+        border-radius: 40px 40px 80px 0px!important;
+    }
+    .banner-small-photo-3,.banner-small-photo-4{
+        display: none;
+    }
+    .banner-small-photo-3{
+        border-radius: 20px 80px 20px 0px;
+    }
+    .banner-small-photo-4{
+        border-radius: 80px 20px 0px;
+    }
+    .banner-small-photo-1,.banner-small-photo-2{
+        display: block;
+    }
+    .sport-box{
+        width: 100%;
+        justify-content: flex-start !important;
+    }
+    .sport-box p{
+        font-size: 16px;
+        margin: 20px 25px 25px 30px;
+
+    }
+    .ipad{
+        gap: 20px;
+        flex-direction: column;
+    }
+    .ipad img{
+        width: 118px!important;
+    }
+
+}
+/*------------------------------------------------------------------- 767px x 576px ---------------------------------------------------------------------*/
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .big-header h1{
+        font-size: 32px!important;
+    }
+    .big-header h2{
+        font-size: 9vh!important
+    }
+    .cath-phrase p{
+        font-size: 4vh!important;
+    }
+    .img-ben{
+        width: 90px;
+    }
+    .benefit-info p {
+        font-size: 3.6vh!important;
+    }
+    .banner-content h3 {
+        font-size: 4vh!important;
+    }
+    .banner-content p {
+        font-size: 2.1vh!important;
+    }
+    .phone-pictures {
+        padding: 0 0!important;
+        width: inherit;
+
+    }
+    .phone-pictures img{
+        width: inherit;
+        border-radius: 20px;
+    }
+    .benefits-block {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .sport-pictures {
+        display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center!important;
+    align-items: center!important;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .banner{
+        display: flex !important;
+        height: max-content;
+        flex-direction: row!important;
+    }
+    #btn {
+        font-size: 3vh!important;
+    }
+    .banner-content{
+        align-content: center;
+    justify-content: center;
+    align-items: center;
+        margin-top: 35px;
+        padding: 0 16px;
+    }
+    .banner-content h3{
+        font-size: 24px;
+    }
+    .banner-content p{
+        margin: 35px 0;
+        font-size: 16px;
+    }
+    .banner-photo{
+        flex-direction: row!important;
+    }
+    .banner-small-photo{
+        justify-content: space-between!important;
+        flex-direction: column!important;
+    }
+    .banner-small-photo img{
+        width: inherit;
+    }
+    .middle-phone{
+        width: 206px;
+        margin: 0 17px;
+    }
+    .phone-container{
+        padding: 0 0 0 0!important;
+    }
+    .nav-header{
+        display: none!important;
+    }
+    .btn{
+        font-size: 2vh!important;
+    }
+    .nav-ul{
+        align-content: center!important;
+        padding-inline-start: 0px!important;
+    }
+    .header-class{
+        justify-content: space-between!important;
+    }
+    header img{
+        width: 100%;
+    }
+    footer{
+        display: flex;
+        flex-direction: row!important;
+        margin-right: 0 !important;
+    }
+    .footer-box{
+        text-align: center !important;
+    }
+    .footer-logo-div{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .social-links{
+        align-content: center;
+        justify-content: center;
+    }
+    .app-link{
+        justify-content: center !important;
+    }
+    .banner-links{
+        margin-bottom: 35px;
+    }
+    .ban-img{
+        display: block!important;
+    }
+    .banner-small-photo{
+        width: 100%;
+        gap: 10%;
+    }
+    .ban-img-mob{
+        display: none!important;
+        width: -webkit-fill-available;
+        border-radius: 40px 40px 80px 0px!important;
+    }
+    .banner-small-photo-3,.banner-small-photo-4{
+        display: none;
+    }
+    .banner-small-photo-3{
+        border-radius: 20px 80px 20px 0px;
+    }
+    .banner-small-photo-4{
+        border-radius: 80px 20px 0px;
+    }
+    .banner-small-photo-1,.banner-small-photo-2{
+        display: block;
+    }
+    .sport-box{
+        width: 100%;
+    }
+    .sport-box p{
+        font-size: 2.8vh;
+    }
+    .ipad{
+        flex-direction: column;
+    }
+
+
+}
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .big-header h1{
+        font-size: 8vw!important;
+    }
+    .big-header h2{
+        font-size: 28pt!important;
+    }
+    .cath-phrase p{
+        font-size: 16px!important;
+    }
+    .phone-pictures {
+        padding: 0 0!important;
+        width: inherit;
+
+    }
+    .phone-pictures img{
+        width: inherit;
+        border-radius: 20px;
+    }
+    .benefits-block {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sport-pictures {
+        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
+    }
+    .banner{
+        display: flex !important;
+        
+        height: max-content;
+        flex-direction: column-reverse!important;
+    }
+    .banner-content{
+        align-content: center;
+    justify-content: center;
+    align-items: center;
+        margin-top: 35px;
+        padding: 0 16px;
+    }
+    .banner-content h3{
+        font-size: 24px;
+    }
+    .banner-content p{
+        margin: 35px 0;
+        font-size: 16px;
+    }
+    .banner-photo{
+        flex-direction: column!important;
+    }
+    .banner-small-photo{
+        justify-content: space-between!important;
+        flex-direction: row!important;
+    }
+    .banner-small-photo img{
+        width: inherit;
+    }
+    .middle-phone{
+        width: 130px;
+        margin: 0 17px;
+    }
+    .phone-container{
+        padding: 0 0 0 0!important;
+    }
+    .nav-header{
+        display: none!important;
+    }
+    .header-class{
+        justify-content: space-between!important;
+    }
+    header img{
+        width: 128px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column!important;
+        margin-right: 0 !important;
+        align-items: center!important;
+    }
+    .footer-box{
+        text-align: center !important;
+    }
+    .footer-logo-div{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-links{
+        align-content: center;
+        justify-content: center;
+    }
+    .app-link{
+        justify-content: center !important;
+    }
+    .banner-links{
+        margin-bottom: 35px;
+    }
+    .ban-img{
+        display: none!important;
+    }
+    .ban-img-mob{
+        display: block!important;
+        width: -webkit-fill-available;
+        border-radius: 40px 40px 80px 0px!important;
+    }
+    .banner-small-photo-3,.banner-small-photo-4{
+        display: block;
+    }
+    .banner-small-photo-3{
+        border-radius: 20px 80px 20px 0px;
+    }
+    .banner-small-photo-4{
+        border-radius: 80px 20px 0px;
+    }
+    .banner-small-photo-1,.banner-small-photo-2{
+        display: none;
+    }
+    .benefit-info p {
+        font-size: 16px;
+    }
+
+}
+/*------------------------------------------------------------------- 575 ---------------------------------------------------------------------*/
+@media (max-width: 575px) {
+    .big-header h1{
+        font-size: 8vw!important;
+    }
+    .big-header h2{
+        font-size: 28px!important;
+    }
+    .cath-phrase p{
+        font-size: 16px!important;
+    }
+    .phone-pictures {
+        padding: 0 0!important;
+        width: inherit;
+
+    }
+    .phone-pictures img{
+        width: inherit;
+        border-radius: 20px;
+    }
+    .benefits-block {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 15px;
+    }
+    .sport-pictures {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner{
+        display: flex !important;
+        
+        height: max-content;
+        flex-direction: column-reverse!important;
+    }
+    .banner-content{
+        align-content: center;
+    justify-content: center;
+    align-items: center;
+        margin-top: 35px;
+        padding: 0 16px;
+    }
+    .banner-content h3{
+        font-size: 24px;
+    }
+    .banner-content p{
+        margin: 35px 0;
+        font-size: 16px;
+    }
+    .banner-photo{
+        flex-direction: column!important;
+    }
+    .banner-small-photo{
+        justify-content: space-between!important;
+        flex-direction: row!important;
+    }
+    .banner-small-photo img{
+        width: inherit;
+    }
+    .middle-phone{
+        width: 130px;
+        margin: 0 17px;
+    }
+    .phone-container{
+        padding: 0 0 0 0!important;
+    }
+    .nav-header{
+        display: none!important;
+    }
+    .header-class{
+        justify-content: space-between!important;
+    }
+    header img{
+        width: 128px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column!important;
+        margin-right: 0 !important;
+    }
+    .footer-box{
+        text-align: center !important;
+    }
+    .footer-box li {
+        justify-content: center;
+    }
+    .footer-logo-div{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-links{
+        align-content: center;
+        justify-content: center;
+    }
+    .app-link{
+        justify-content: center !important;
+    }
+    .banner-links{
+        margin-bottom: 35px;
+    }
+    .ban-img{
+        display: none!important;
+    }
+    .ban-img-mob{
+        display: block!important;
+        width: -webkit-fill-available;
+        border-radius: 40px 40px 80px 0px!important;
+    }
+    .banner-small-photo-3,.banner-small-photo-4{
+        display: block;
+    }
+    .banner-small-photo-3{
+        border-radius: 20px 80px 20px 0px;
+    }
+    .banner-small-photo-4{
+        border-radius: 80px 20px 0px;
+    }
+    .banner-small-photo-1,.banner-small-photo-2{
+        display: none;
+    }
+    .benefit-info p {
+        font-size: 16px;
+    }
+    .banner-small-photo {
+        width: 100%;
+        gap: 5%;
+    }
+}
+
+/*------------------------------------------------------------------- 540 ---------------------------------------------------------------------*/
+/*------------------------------------------------------------------- 539 ---------------------------------------------------------------------*/
+@media (max-width: 280px){
+    .banner-link-first{
+        margin-right: 0px!important;
+    }
+    .banner-links{
+        gap: 20px;
+        flex-direction: column;
+    }
+    .benefit-info p {
+        font-size: 13px;
+    }
+    .icons {
+        margin: 0 0;
+    }
+    .cath-phrase p {
+        font-size: 13px!important;
+    }
+.middle-phone {
+    width: 98px;
+    margin: 0 17px;
+}
+}
+/*------------------------------------------------------------------- 360 ---------------------------------------------------------------------*/
+
+@media (max-width: 360px) {
+    .banner-small-photo {
+    width: 69%;
+    gap: 5%;
+}
+}
